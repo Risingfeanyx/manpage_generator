@@ -1,7 +1,10 @@
 # manpage_generator
 genereates a formatted html page  of all the operating systems man pages 
 
+
+# swap out 'open' for your text web browser of choice (w3m,lynx,etc) if you're going to be using in a TTY environment
 #toto: parse out non-existing manpages
+
 
 ```
 (
