@@ -20,8 +20,7 @@ open index.html
 )
 ```
 
-#based on this
-#save manpages for every command your user can run in one file
+#based on this, which saves manpages for every command your user can run in one file
 ```
 for i in $(compgen -c | sort -h); do man "$i" >> man.pages."$(date +%F)"; done
 ```
